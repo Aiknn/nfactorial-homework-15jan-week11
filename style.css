@@ -16,6 +16,9 @@ body{
 
 header{
     background-color: #F1F1F1;
+    height: 62px;
+    display: flex;
+    align-items: center;
 }
 
 header .container {
@@ -26,26 +29,48 @@ header .container {
 
 .logo{
     display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 22px;
 }
 
 .logo-text{
     font-family: 'Kanit', sans-serif;
     font-weight: 500;
     font-size: 18px;
+    margin-left: 10px;
 }
 
 .menu-list{
     display: flex;
     list-style-type: none;
+    align-items: center;
 }
 
 .menu-list li {
     font-weight: 500;
     font-size: 14px;
+    margin-left: 40px;
+}
+
+.get-started{
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(8, 30, 52, 0.12);
+    border-radius: 100px;
+    border: none;
+    padding: 10px 12px;
 }
 
 .description {
     background-color: #F1F1F1;
+}
+
+.description-photo {
+    border-radius: 5%;
 }
 
 .description .container {
