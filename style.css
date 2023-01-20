@@ -281,3 +281,14 @@ footer {
     font-size: 14px;
     text-align: right;
 }
+
+/* @media screen {
+    
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+} */
