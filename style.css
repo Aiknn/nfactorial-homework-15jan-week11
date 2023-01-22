@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -25,6 +25,7 @@ header .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
 }
 
 .logo{
@@ -144,6 +145,7 @@ header .container {
 .steps-details{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .steps-info{
@@ -275,13 +277,10 @@ footer {
     text-align: right;
 }
 
-/* @media screen {
-    
+@media only screen and (max-width: 420px) {
     .container{
         width: 100%;
         display: flex;
         flex-direction: column;
     }
-
-
-} */
+  }
