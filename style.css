@@ -7,6 +7,7 @@ p, menu, ol, hr, div, img, figure, dl, blockquote, ul, h1, h2, h3, h4, h5, h6 {
 body{
     margin: 0;
     font-family: 'Inter', sans-serif;
+    background-color: #F1F1F1;
 }
 
 .container{
@@ -15,7 +16,6 @@ body{
 }
 
 header{
-    background-color: #F1F1F1;
     height: 62px;
     display: flex;
     align-items: center;
@@ -66,7 +66,6 @@ header .container {
 }
 
 .description {
-    background-color: #F1F1F1;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -131,6 +130,7 @@ header .container {
 
 .steps {
     background-color: #E1DEE7;
+    border-radius: 32px;
 }
 
 .steps .container {
@@ -175,10 +175,6 @@ header .container {
     font-size: 16px;
 }
 
-.input-field {
-    background-color: #F1F1F1;
-}
-
 .input-field .container{
     display: flex;
     flex-direction: column;
@@ -215,10 +211,6 @@ input[type=text] {
     margin-right: 32px;
   }
 
-.submission {
-    background-color: #F1F1F1;
-}
-
 .submission .container {
     display: flex;
     justify-content: space-between;
@@ -246,6 +238,7 @@ input[type=text] {
 
 footer {
     background-color: #FFFFFF;
+    border-radius: 32px 32px 0px 0px;
 }
 
 .footer-main-text{
