@@ -341,6 +341,7 @@ footer {
     }
     #pers4{
         font-size: 24px;
+        text-align: left;
     }
     .menu-list{
         display: flex;
@@ -368,6 +369,39 @@ footer {
     }
     .steps .container {
         padding-top: 54px;
-        padding-bottom: 54px;
+        padding-bottom: 24px;
+    }
+    .step img {
+        width: 23%;
+        height: 23%;
+    }
+    .step-main-text{
+        font-size: 20px;
+        padding-top: 24px;
+        padding-bottom: 12px;
+    }
+    .input-field .container{
+        padding-top: 54px;
+        padding-bottom: 50px;
+    }
+    #pers5{
+        display: none;
+    }
+    input[type=text] {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    #pers6{
+        text-align: left;
+    }
+    #pers7{
+        margin: 0;
+    }
+    #pers2 li{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .credits{
+        padding-top: 20px;
     }
 }
