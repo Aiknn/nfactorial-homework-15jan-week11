@@ -321,4 +321,22 @@ footer {
         line-height: 18px;
         text-align: center;
     }
+    .steps-main-info{
+        font-size: 32px;
+    }
+    .step-extra-text {
+        font-size: 14px;
+    }
+    .input-field-main-text{
+        font-size: 24px;
+        text-align: center;
+    }
+    .input-field-extra-text{
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .description-slogan{
+        font-size: 24px;
+    }
 }
